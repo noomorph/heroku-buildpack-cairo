@@ -43,7 +43,7 @@ function vendor() {
 
 echo "-----> Vendoring binaries"
 vendor "https://cairographics.org/releases/cairo-1.12.0.tar.gz"  "$BUILD_DIR/vendor/cairo"
-vendor "https://iweb.dl.sourceforge.net/project/freetype/freetype2/2.10.1/freetype-2.10.1.tar.gz" "$BUILD_DIR/vendor/freetype"
+vendor "https://master.dl.sourceforge.net/project/freetype/freetype2/2.10.1/freetype-2.10.1.tar.gz" "$BUILD_DIR/vendor/freetype"
 vendor "https://fossies.org/linux/misc/giflib-5.2.1.tar.gz"   "$BUILD_DIR/vendor/giflib"
 vendor "https://www.cairographics.org/releases/pixman-0.34.0.tar.gz"  "$BUILD_DIR/vendor/pixman"
 vendor "https://raw.githubusercontent.com/royiakt/heroku-buildpack-cairo/master/pango-1.49.0.tar.gz"  "$BUILD_DIR/vendor/pango"
